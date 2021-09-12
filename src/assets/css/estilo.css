@@ -216,6 +216,16 @@ aside#lateral {
   float: right;
 }
 
+aside#lateral h1 {
+  font-family: "FonteLogo", sans-serif;
+  font-size: 20pt;
+  color: #606060;
+}
+
+aside#lateral h2 {
+  
+}
+
 footer#rodape {
   clear: both;
   border-top: 1px solid #606060;
