@@ -1,5 +1,47 @@
-@media (max-width: 800px) {
-  header#cabecalho img#icone {
-    left: 770px;
-  }
+@charset "UTF-8";
+
+div#tv-radio {
+  width: 900px;
+  height: 580px;
+  margin: auto;
+  background: url("../images/radio-tv.png") no-repeat;
+}
+
+audio#musica {
+  display: block;
+  position: relative;
+  left: 575px;
+  top: 490px;
+  width: 300px;
+}
+
+video#filme {
+  display: block;
+  position: relative;
+  left: 90px;
+  top:60px;
+  width:440px;
+}
+
+div#tv-radio1 {
+  position: relative;
+    top: 0px;
+    left: -22px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform:scale(0.9);
+    
+}
+
+div#tv-radio2 {
+  position: relative;
+  top: 0px;
+  left: -22px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform:scale(0.8);
 }
